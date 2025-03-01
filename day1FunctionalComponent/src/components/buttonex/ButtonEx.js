@@ -1,3 +1,5 @@
+import Menu from "../menu/Menu";
+
 const ButtonEx=()=>{
 
     const ajay=()=>{
@@ -9,12 +11,13 @@ const ButtonEx=()=>{
 
 
      const kandagatla=()=>{
-        alert("Hi! i am Kandagatla")
+        alert("Hi! i am Kandagatla");
      }
 
 
      return(
         <div>
+            <Menu/>
             <input type="button" value="Ajay" onClick={ajay} />
             &nbsp;&nbsp;&nbsp;
             <input type="button" value="Kumar" onClick={kumar} />
